@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio Personal</title>
+    <!-- Bootstrap 5.3.7 desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <script src="https://kit.fontawesome.com/3432f07c5e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- CONTENIDO -->
+    <main class="container py-5">
+        <!-- INICIO -->
+        <section id="inicio" class="my-5">
+            <div class="text-center">
+                <h1 class="display-4">¡Hola! Soy Laura Duhalde</h1>
+                <p class="lead">
+                    Ingeniera Informática. Me interesa el desarrollo web y me motiva aprender constantemente para mejorar mis habilidades. Tengo experiencia en varios lenguajes de programación y me destaco por ser autodidacta, trabajar en equipo y resolver problemas de forma eficiente. Además, he participado en la toma de requerimientos y colaborado con equipos multidisciplinarios. Estoy comprometida con seguir creciendo como desarrolladora y aportar en proyectos que generen valor.
+                </p>
+            </div>
+        </section>
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="mb-5">
+            <h2 class="mb-4">Proyectos destacados</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Proyecto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Proyecto 1</h5>
+                    <p class="card-text">Aplicación web que permite buscar películas y ver detalles. HTML, CSS y JS.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Proyecto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Proyecto 2</h5>
+                    <p class="card-text">Formulario de contacto validado con JavaScript y Bootstrap.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2 class="mb-4">Contacto</h2>
+            <form id="formContacto">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea id="mensaje" class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                <p id="mensajeExito" class="mt-2 text-success d-none">¡Gracias! Tu mensaje fue enviado.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">© 2025 Laura Duhalde Ulloa</p>
+            <div>
+            <a href="https://www.linkedin.com/in/laura-duhalde-ulloa-b1119b39" target="_blank" class="text-white me-4" aria-label="LinkedIn">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/LauDuhalde" target="_blank" class="text-white" aria-label="GitHub">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
