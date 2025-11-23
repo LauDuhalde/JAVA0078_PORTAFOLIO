@@ -9,14 +9,35 @@ Este repositorio reúne los proyectos desarrollados durante mi proceso de aprend
 ### 1. Proyecto Web – HTML + Bootstrap
 Desarrollo de una página web responsiva utilizando HTML, CSS y Bootstrap, enfocada en estructura, diseño visual y experiencia de usuario.
 
+Repositorio:
+https://github.com/LauDuhalde/JAVA0078_EVA_MODULO2
+
 ### 2. Proyecto de Base de Datos
 Diseño y modelado de una base de datos relacional, incluyendo la creación de tablas, relaciones y consultas SQL.
+
+Repositorio:
+https://github.com/LauDuhalde/JAVA0078_EVA_MODULO3
 
 ### 3. Proyecto Java por Consola
 Aplicación desarrollada en Java utilizando consola, enfocada en la lógica de programación, estructuras de control y manejo de datos.
 
+Repositorio:
+https://github.com/LauDuhalde/JAVA0078_PORTAFOLIO_M4_AgendaDigital
+
 ### 4. Proyecto Jakarta EE
 Desarrollo de una aplicación web usando Jakarta EE, aplicando el patrón MVC, servlets, JSP y conexión a base de datos.
+
+Repositorio:
+https://github.com/LauDuhalde/JAVA0078_PORTAFOLIO_M5_Biblioteca
+
+### 5. Proyecto Módulo 6 – Gestión de Capacitaciones
+
+Aplicación desarrollada con Spring boot para la gestión de capacitaciones, que permite crear, listar, actualizar y eliminar registros (CRUD).  
+El proyecto está enfocado en buenas prácticas de desarrollo, organización por capas y manejo de datos.
+
+Repositorio:  
+https://github.com/LauDuhalde/JAVA0078_PORTAFOLIO_M6_Capacitaciones
+
 
 ---
 
@@ -55,13 +76,32 @@ Estos retos fueron superados mediante:
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 
-- HTML5, CSS3, Bootstrap
-- Java (Consola)
-- Jakarta EE (Servlets, JSP)
-- SQL / Bases de datos relacionales
-- Git y GitHub
+### Backend
+- Java 21
+- Spring Boot 3.5.7
+- Spring MVC
+- Spring Data JPA
+- Spring Security
+- Hibernate Validator
+- Hibernate
+- Lombok
+
+### Bases de datos
+- MySQL
+- PostgreSQL
+- SQL
+
+### Frontend
+- HTML5
+- CSS3
+- Thymeleaf
+- Bootstrap 5.3
+
+### Herramientas
+- Git
+- GitHub
 
 ---
 
